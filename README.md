@@ -24,17 +24,15 @@ Un ESP32 vigila un puente sobre un río: mide el **nivel del río** con un senso
 
 ## Enlaces
 
-- Simulación en Wokwi: PEGA_AQUI_ENLACE_WOKWI
-- App en Streamlit Cloud: PEGA_AQUI_ENLACE_STREAMLIT
-- Dashboard de Grafana: ver capturas en `evidencias/`
+- Simulación en Wokwi:  https://wokwi.com/projects/480505327512785921
+- App en Streamlit Cloud: (https://proyecto-final-iot-hxx7cqxg4dprrayx7quqjh.streamlit.app)
+- Dashboard de Grafana: ver capturas en `datos/`
 
 ## Contenido del repositorio
 
-- `wokwi/` — código del ESP32 (`sketch.ino`), circuito (`diagram.json`) y librerías (`libraries.txt`). Los tokens están reemplazados por `PEGA_AQUI_...`.
+- `sketch.ino`, `diagram.json` y `libraries.txt` — código del ESP32, circuito y librerías de Wokwi. Los tokens están reemplazados por `PEGA_AQUI_...`.
 - `app.py` y `requirements.txt` — app de Streamlit.
-- `datos/grafana_export.csv` — CSV exportado de Grafana que usa la app.
-- `evidencias/` — capturas de ThingsBoard, InfluxDB y Grafana.
-
+- `datos/` — CSV exportados de los paneles de Grafana que usa la app.
 ## Correr la app en local
 
 ```bash
